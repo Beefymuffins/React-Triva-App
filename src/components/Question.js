@@ -1,7 +1,6 @@
 /* eslint-disable no-plusplus */
 import React, { useState } from 'react';
 
-const streakMultiplier = 0;
 export default function Question({ question, changeQuestion }) {
   const [classToApply, setClassToApply] = useState('');
   const [selectedAnswer, setSelectedAnswer] = useState(-1);
